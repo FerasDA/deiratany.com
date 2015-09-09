@@ -118,8 +118,6 @@ section.work {
 .work img {
     display: block;
     margin: 0 auto 20px;
-    width: 250px;
-    height: 250px;
 }
 
 #work .work-item {
@@ -190,8 +188,6 @@ section.project {
 .project img {
     display: block;
     margin: 0 auto 20px;
-    width: 250px;
-    height: 250px;
 }
 
 #project .project-item {
@@ -261,6 +257,70 @@ section.project {
     border: solid 2px #fff;
     color: #18bc9c;
     background: #fff;
+}
+
+.work-modal .modal-content {
+    padding: 100px 0;
+    min-height: 100%;
+    border: 0;
+    border-radius: 0;
+    text-align: center;
+    background-clip: border-box;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.work-modal .modal-content h2 {
+    margin: 0;
+    font-size: 3em;
+}
+
+.work-modal .modal-content img {
+    margin-bottom: 30px;
+}
+
+.work-modal .modal-content .item-details {
+    margin: 30px 0;
+}
+
+.work-modal .close-modal {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    width: 75px;
+    height: 75px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.work-modal .close-modal:hover {
+    opacity: .3;
+}
+
+.work-modal .close-modal .lr {
+    z-index: 1051;
+    width: 1px;
+    height: 75px;
+    margin-left: 35px;
+    background-color: #2c3e50;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.work-modal .close-modal .lr .rl {
+    z-index: 1052;
+    width: 1px;
+    height: 75px;
+    background-color: #2c3e50;
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.work-modal .modal-backdrop {
+    display: none;
+    opacity: 0;
 }
 
 .project-modal .modal-content {
