@@ -161,6 +161,7 @@ section h2 {
 section.success {
     color: #2C3E50;
     background: #ECF0F1;
+    text-align: center;
 }
 
 section.success a,
